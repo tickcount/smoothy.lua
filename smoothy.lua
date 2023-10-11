@@ -80,7 +80,7 @@ local function perform_easing(ntype, easing_fn, previous, new, clock, duration)
     return resolve(easing_fn, previous, new, clock, duration)
 end
 
-local function update(self, duration, value, easing, ignore_adj_speed)
+local function update(self, duration, value, easing)
     if type(value) == 'boolean' then
         value = value and 1 or 0
     end
