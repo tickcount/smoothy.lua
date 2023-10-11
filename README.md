@@ -31,13 +31,13 @@ end)
 ## Documentation
 **`smoothy.new(default_value, easing_function)`**
 
-Syntax:
 - **default_value**: Default value (can either be a number or a table of numbers)
 - (optional) **easing_function**: Easing function.
 
 **`smoothy_object(duration, value, easing_function)`**
 
 **`smoothy_object:update(duration, value, easing_function)`**
+
 - **duration**: An amount of time to interpolate from one value to another
 - **value**: A number or a table of numbers to interpolate to
 - (optional) **easing_function**: Easing function.
