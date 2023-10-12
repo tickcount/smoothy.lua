@@ -6,9 +6,9 @@ This library gives you the ability to create easings providing unique and friend
 local smoothy = require 'smoothy'
 
 -- create smoothy object
-local number = smoothy.new(0)
-local table = smoothy.new({ 0, 3, 5, 1, 6 })
-local table2 = smoothy.new({ var1 = 1, var2 = 50 })
+local number = smoothy(0)
+local table = smoothy({ 0, 3, 5, 1, 6 })
+local table2 = smoothy({ var1 = 1, var2 = 50 })
 
 events.render(function()
   -- update values
